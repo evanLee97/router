@@ -13,7 +13,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]
-
+//das
 const router = createRouter({
   history: createWebHashHistory(),
   routes
